@@ -1,6 +1,5 @@
 package com.crazysunj.crazydaily.util;
 
-import com.crazysunj.domain.entity.ZhihuNewsDetailEntity;
 
 import java.util.List;
 
@@ -95,9 +94,4 @@ public class HtmlUtil {
      *
      * @return String
      */
-    public static String createHtmlData(ZhihuNewsDetailEntity entity) {
-        final String css = HtmlUtil.createCssTag(entity.getCss());
-        final String js = HtmlUtil.createJsTag(entity.getJs());
-        return createHtmlData(entity.getBody(), css, js);
-    }
 }

@@ -6,7 +6,6 @@ import com.crazysunj.crazydaily.di.module.ActivityModule;
 import com.crazysunj.crazydaily.di.module.EntityModule;
 import com.crazysunj.crazydaily.di.scope.ActivityScope;
 import com.crazysunj.crazydaily.ui.HomeActivity;
-import com.crazysunj.crazydaily.ui.ZhihuNewsDetailActivity;
 
 import dagger.Component;
 
@@ -17,5 +16,4 @@ public interface ActivityComponent {
 
     void inject(HomeActivity homeActivity);
 
-    void inject(ZhihuNewsDetailActivity zhihuNewsDetailActivity);
 }

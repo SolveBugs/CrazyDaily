@@ -25,9 +25,7 @@ dependencies {
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    provided domainDependencies.MTRVA
     provided domainDependencies.gson
-    provided domainDependencies.niceVieoPlayer
 
     compile domainDependencies.javaxInject
     compile domainDependencies.rxjava

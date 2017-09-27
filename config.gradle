@@ -18,8 +18,6 @@ ext {
             dagger2               : "2.6",
             butterknife           : "8.8.1",
             glide                 : "3.7.0",
-            MTRVA                 : "1.8.0",
-            BRVAH                 : "2.9.27",
             robolectricVersion    : "3.1.1",
             jUnitVersion          : "4.12",
             assertJVersion        : "1.7.1",
@@ -28,13 +26,8 @@ ext {
             javaxAnnotationVersion: "1.0",
             javaxInjectVersion    : "1",
             logger                : "1.15",
-            statusbarutil         : "1.4.0",
-            pickerdialog          : "1.1.0",
             tray                  : "0.12.0",
-            circleimageview       : "2.1.0",
-            niceVieoPlayer        : "v2.2",
             gson                  : "2.8.2",
-            cardslideview         : "1.2.1",
     ]
 
     dataDependencies = [
@@ -48,7 +41,6 @@ ext {
             dagger                  : "com.google.dagger:dagger:${dependVersion.dagger2}",
             daggerCompiler          : "com.google.dagger:dagger-compiler:${dependVersion.dagger2}",
             logger                  : "com.orhanobut:logger:${dependVersion.logger}",
-            niceVieoPlayer          : "com.github.xiaoyanger0825:NiceVieoPlayer:${dependVersion.niceVieoPlayer}"
     ]
 
     dependencies = [
@@ -59,15 +51,8 @@ ext {
             glide              : "com.github.bumptech.glide:glide:${dependVersion.glide}",
             butterknife        : "com.jakewharton:butterknife:${dependVersion.butterknife}",
             butterknifeCompiler: "com.jakewharton:butterknife-compiler:${dependVersion.butterknife}",
-            MTRVA              : "com.crazysunj:multitypeadapter:${dependVersion.MTRVA}",
-            BRVAH              : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${dependVersion.BRVAH}",
             annotation         : "org.glassfish:javax.annotation:10.0-b28",
             multidex           : "com.android.support:multidex:1.0.1",
-            pickerdialog       : "com.crazysunj:android-pickerdialog:${dependVersion.pickerdialog}",
-            statusbarutil      : "com.jaeger.statusbarutil:library:${dependVersion.statusbarutil}",
-            circleimageview    : "de.hdodenhof:circleimageview:${dependVersion.circleimageview}",
-            niceVieoPlayer     : "com.github.xiaoyanger0825:NiceVieoPlayer:${dependVersion.niceVieoPlayer}",
-            cardslideview      : "com.crazysunj:cardslideview:${dependVersion.cardslideview}"
     ]
 
     dataTestDependencies = [
@@ -78,13 +63,11 @@ ext {
     ]
 
     domainDependencies = [
-            MTRVA          : "com.crazysunj:multitypeadapter:${dependVersion.MTRVA}",
             rxjava         : "io.reactivex.rxjava2:rxjava:${dependVersion.rxjava}",
             javaxInject    : "javax.inject:javax.inject:${dependVersion.javaxInjectVersion}",
             javaxAnnotation: "javax.annotation:jsr250-api:${dependVersion.javaxAnnotationVersion}",
             arrow          : "com.fernandocejas:arrow:${dependVersion.arrowVersion}",
             tray           : "net.grandcentrix.tray:tray:${dependVersion.tray}",
-            niceVieoPlayer : "com.github.xiaoyanger0825:NiceVieoPlayer:${dependVersion.niceVieoPlayer}",
             gson           : "com.google.code.gson:gson:${dependVersion.gson}"
 
     ]

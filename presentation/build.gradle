@@ -48,13 +48,6 @@ dependencies {
     compile libs.glide
     compile libs.multidex
     compile libs.butterknife
-    compile libs.MTRVA
-    compile libs.BRVAH
-    compile libs.statusbarutil
-    compile libs.pickerdialog
-    compile libs.circleimageview
-    compile libs.niceVieoPlayer
-    compile libs.cardslideview
     annotationProcessor libs.butterknifeCompiler
     compile project(':data')
 }
